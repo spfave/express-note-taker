@@ -1,0 +1,27 @@
+{
+  "name": "11-express-note-taker",
+  "version": "1.0.0",
+  "description": "Full stack note taking application using express.js to build the server functionality with a web front end for the client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spfave/express-note-taker.git"
+  },
+  "keywords": [],
+  "author": "Sebastian Fave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spfave/express-note-taker/issues"
+  },
+  "homepage": "https://github.com/spfave/express-note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
