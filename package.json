@@ -2,10 +2,10 @@
   "name": "11-express-note-taker",
   "version": "1.0.0",
   "description": "Full stack note taking application using express.js to build the server functionality with a web front end for the client.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon "
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
