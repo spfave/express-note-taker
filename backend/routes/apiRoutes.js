@@ -17,6 +17,16 @@ router.route("/notes").post((req, res) => {
   res.end();
 });
 
-router.route("/notes/:id").delete((req, res) => {});
+router.route("/notes/:id").delete((req, res) => {
+  const noteID = req.params.id;
+
+  for (const [i, note] of notes.entries()) {
+    if (note.id === noteID) {
+      notes.splice(i, 1);
+      break;
+    }
+  }
+  res.end();
+});
 
 module.exports = router;
