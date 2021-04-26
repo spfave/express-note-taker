@@ -12,13 +12,11 @@ app.use(express.static("public"));
 app.use(express.json());
 
 // Routes
+const apiRouter = require("./backend/routes/apiRoutes");
 const htmlRouter = require("./backend/routes/htmlRoutes");
 
+app.use("/api", apiRouter);
 app.use("/", htmlRouter);
-
-// app.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, "public/html/index.html"));
-// });
 
 // Initiate server operation
 app.listen(PORT, () => console.log(`App listening on PORT: ${PORT}`));
