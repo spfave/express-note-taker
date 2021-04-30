@@ -9,7 +9,7 @@
 ## **Table of Contents**
   - [**Description**](#description)
   - [**Live Application**](#live-application)
-  - [**Development/Application Screenshots**](#developmentapplication-screenshots)
+  - [**Application Screenshots and Demo**](#application-screenshots-and-demo)
   - [**Technologies and Services**](#technologies-and-services)
   - [**License**](#license)
 
@@ -24,9 +24,9 @@ The web application is hosted on Heroku for demonstration.
 &nbsp;
 ## **[Live Application](https://spf-exjs-notetaker.herokuapp.com/)**
 ## **Application Screenshots and Demo**
-<!-- ![Landing page]() -->
-<!-- ![Notes page]() -->
-<!-- ![Notes navigation and management]() -->
+![Landing page](./assets/img/note-taker-landing.png) -->
+![Notes page](./assets/img/note-taker-notes-list.png)
+![Notes navigation and management](./assets/img/note-take-demo.gif)
 
 &nbsp;
 ## **Technologies and Services**
