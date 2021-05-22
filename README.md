@@ -24,7 +24,7 @@ The web application is hosted on Heroku for demonstration.
 &nbsp;
 ## **[Live Application](https://spf-exjs-notetaker.herokuapp.com/)**
 ## **Application Screenshots and Demo**
-![Landing page](./assets/img/note-taker-landing.png) -->
+![Landing page](./assets/img/note-taker-landing.png)
 ![Notes page](./assets/img/note-taker-notes-list.png)
 ![Notes navigation and management](./assets/img/note-take-demo.gif)
 
