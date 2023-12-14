@@ -12,7 +12,6 @@ RUN npm install
 
 # Copy src and public directories to the working directory of docker image (/app)
 COPY ./src ./src
-# COPY ./public ./public
 
 EXPOSE 3000
 
