@@ -1,19 +1,10 @@
-# Start your image with a node base image
 FROM node:20-alpine
-
-# The /app directory should act as the main application directory
+ENV NODE_ENV=production
 WORKDIR /app
-
-# Copy the app package and package-lock.json file
-COPY package*.json ./
-
-# Install node packages
-RUN npm install
-
-# Copy src and public directories to the working directory of docker image (/app)
+COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+RUN npm install --production
 COPY ./src ./src
-
 EXPOSE 3000
-
-# Start application
-CMD ["npm", "run", "start"]
+RUN chown -R node /app
+USER node
+CMD ["npm", "start"]
