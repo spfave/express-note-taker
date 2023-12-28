@@ -1,5 +1,12 @@
 {
-    "cSpell.words": [
-        "uuidv"
-    ]
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+		"docker-compose.yml": "docker-compose.*, Dockerfile, Dockerfile.*, .dockerignore"
+		// "vite.config.ts": ""
+		// "tailwind.config.cjs": "postcss.config.cjs"
+	},
+	"cSpell.words": ["uuidv"]
 }
