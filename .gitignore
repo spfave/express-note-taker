@@ -41,6 +41,7 @@ build/Release
 package-lock.json
 node_modules/
 jspm_packages/
+.pnpm*
 
 # TypeScript v1 declaration files
 typings/
